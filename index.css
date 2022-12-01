@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    color: white;
+    background:  #090808;
+    box-sizing: border-box;
+    scrollbar-width: none;  
+    -ms-overflow-style: none; 
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.header{
+    width: 90%;
+    height: 15vh;
+    margin: 5vh 0 0 5%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1892;
+}
+
+.header p{
+    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;    
+}   
+
+.menu{
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.menu a, a:hover, a:focus, a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menuItem{
+    width:40px;
+    border-radius: 15px;
+    height: 7vh;
+    padding: 0px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active{
+    background-color: #DE5B2D;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+    font-size: 16px;
+    margin-top:2vh;
+    background: #DE5B2D;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+    border-radius: 100%;    
+    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;    
+}
+
+.content{
+    background: radial-gradient(50.12% 55.12% at 44.71% 55.88%, #A85334 5.73%, #090808 63.02%);
+    width:90%;
+    height: 110vh;
+    margin:-26vh 0 0 5%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.content img{
+    max-width: 55%;
+    width: auto;
+    margin: 28% -21% 20% 0;
+    height: 55vh;
+}
+
+.proTitle{
+    width: auto;
+    position: absolute;
+    left: 0vh;
+    top: 25vh;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-size: 55px;
+    font-style: italic;    
+}
+
+.proDesc{
+    width: 18%;
+    position: absolute;
+    right: 10%;
+    bottom: 15vh;
+}
+
+.proDesc p{
+    color: #9B9B9B;
+    font-size: 26px;
+    display: inline;
+    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.proDesc h2{
+    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-size: 33px;
+    margin:0;
+    font-style: italic;    
+
+}
+
+.pagebuttons{
+    width: 30px;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2% 10% 0 45%;
+    position:static;
+}
+
+.pagebtn{
+    width: 30px;
+    height: 30px;
+    background:#C4C4C4;
+    border-radius: 100px;
+}
+
+.pagebuttons .pagebtn:first-child{
+    background-color:#FA6D3B ;
+}
+
+.footer{
+    width: 100%;
+    height: 8vh;
+    background: #FA6D3B;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer img{
+    width: 53px;
+    height: 53px;
+}
+
+.footer #fb{
+    width: 55px;
+    height: 55px;
+}
+
+.footer h2{
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+}
+
+.contactitems{
+    width: 17%;
+    margin-left: 68%;
+    display: flex;
+    justify-content: space-around;
+}
